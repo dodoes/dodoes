@@ -10,12 +10,15 @@ body{
 }
 #footer {
   width: 1000px;
-  height: auto;
-  font-size: 15px;
+  height: 40px;
   background-color: #2a4d69;
-  color: white;
   clear: both;
 }
+      #footer p{
+        color: white;
+        font-size: 15px;
+        margin-top: 5px;
+      }
 #boxname  {
 width: 1000px;
 height: 200px;
@@ -53,6 +56,7 @@ display: inline-block;
 
 #photomenu{
   width: 1000px;
+ height: 400px;
 }
 
 #imgmenu {
@@ -60,7 +64,7 @@ display: inline-block;
   width: 300px;
   height: 300px;
   border-radius:100%;
-  margin: 0px;
+  margin: 10px;
   margin-bottom: 10px;
   image-orientation: center;
   position: relative;
@@ -70,22 +74,26 @@ display: inline-block;
   border: 5px #ed624d solid;
   -webkit-filter: blur(2px);
     filter: blur(2px);
-
+    width: 280px;
+    height: 280px;
 }
 #contactimg {
   display: inline;
-  width: 300px;
-  height: 300px;
   border-radius:100%;
   margin: 0px;
   margin-bottom: 10px;
   image-orientation: center;
   position: relative;
+  width: 100px;
+  height: 100px;
+  margin: 20px;
+  border: 2px;
+  margin-top:75px;
 }
 #contactimg:hover {
-  border: #ed624d solid;
-  -webkit-filter: blur(2px);
-    filter: blur(2px);
+  border: 1px #ed624d solid;
+  -webkit-filter: blur(1px);
+    filter: blur(1px);
 
 }
 
@@ -222,6 +230,28 @@ border: none;
         background-color: #e7eff6;
         color:#ed624d ;
         }
+
+        #button2 {
+        -webkit-transition-duration: 0.4s;
+        transition-duration: 0.4s;
+        float: center;
+        font-size: 20px;
+        margin-top: 20px;
+        margin-left: 400px;
+        position: relative;
+        background-color: #ed624d;
+        border-radius: 8px;
+        padding: 10px;
+        color:white;
+        border: none;
+        }
+
+                #button2:hover {
+                background-color: #e7eff6;
+                color:#ed624d ;
+                border: 2px  solid;
+                border-color:#ed624d;
+                }
 /*news*/
 #main_header{
   width: 100%;
@@ -240,28 +270,22 @@ border: none;
           margin-left: 30px;
         }
 
-#contactimg{
-  width: 130px;
-  height: 130px;
-  margin: 20px;
-  border: 2px;
-  margin-top:75px;
-}
+
       #contact{
         width: 1000px;
-        height: 300px;
+        height: 250px;
       }
 
         #contactinfo{
-          font-size: 14px;
+          font-size: 15px;
           color: #bb4f52;
           font-family: Calibri;
           background-color: #eeeeee;
-          margin-left: 250px;
+          margin-left: 300px;
         }
         #contactinfo span{
           color: #2a4d69;
-          font-size: 30px;
+          font-size: 20px;
         }
 
 #Resume h1{
@@ -288,7 +312,7 @@ border: none;
 
         }
           #travel_places h1{
-            color: #bb4f52;
+            color: #ed654c;
             font-size: 50px;
             display: inline-block;
             margin-left: 20px;
@@ -316,7 +340,7 @@ border: none;
             color: #eeeeee;
             font-size:40px;
             display: inline-block;
-            font-family: Impact;
+            font-family: Calibri;
             margin-left: 100px;
             margin-top: 1px;
           }
@@ -331,7 +355,7 @@ border: none;
 #news_field p {
   color: #2a4d69;
   font-size:20px;
-  font-family: Clalibri;
+  font-family: Calibri;
   margin-left: 100px;
   margin-top: 20px;
   width: 800px;
@@ -340,21 +364,35 @@ border: none;
             #news_field span{
               color: #bb4f52;
               font-size:35px;
-              font-family: Impact;
+              font-family: Calibri;
             }
 
 #datenews {
   width: 1000px;
-  height: 50px;
+  height: 40px;
   background-color:#bb4f52;
   display: inline-block;
   margin-top: 10px;
 }
           #datenews h1 {
             color: #eeeeee;
-          font-size:25px;
+          font-size:27px;
           display: inline-block;
           font-family: Calibri;
           margin-left: 100px;
           margin-top: 5px;
         }
+
+#imgcv {
+          display: inline;
+          width: 300px;
+          height: 300px;
+          border-radius:100%;
+          margin: 0px;
+          margin-bottom: 10px;
+          image-orientation: center;
+          position: relative;
+        }
+#botton2 {
+  height: 80px;
+}
