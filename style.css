@@ -10,7 +10,7 @@ body{
 }
 #footer {
   width: 1000px;
-  height: 25px;
+  height: 30px;
   background-color: #2a4d69;
   clear: both;
 }
@@ -245,6 +245,7 @@ border: none;
         padding: 10px;
         color:white;
         border: none;
+
         }
 
                 #button2:hover {
@@ -278,8 +279,8 @@ border: none;
       }
 
         #contactinfo{
-          font-size: 15px;
-          color: #bb4f52;
+          font-size: 14px;
+          color: #ed624d;
           font-family: Calibri;
           background-color: #eeeeee;
           margin-left: 300px;
@@ -371,7 +372,7 @@ border: none;
 #datenews {
   width: 1000px;
   height: 40px;
-  background-color:#bb4f52;
+  background-color:#ed624d;
   display: inline-block;
   margin-top: 10px;
 }
